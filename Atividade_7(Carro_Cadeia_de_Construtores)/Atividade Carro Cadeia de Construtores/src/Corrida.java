@@ -6,7 +6,7 @@ public class Corrida {
     private Map<Carro, Double> Carros_da_Corrida = new HashMap<>();
 
     public void addCarro(Carro c){
-            Carros_da_Corrida.put(c, 0.0);
+        Carros_da_Corrida.put(c, 0.0);
     }
 
     public void iniciar_corrida(){
